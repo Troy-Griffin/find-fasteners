@@ -41,7 +41,7 @@ For a comprehensive list of other supported cameras click [here](https://develop
 The Jetson Nano can also be powered by a 5V power supply with a Barrel Jack connnector.
 
 ## Software:<br>
-* Latest version of NVIDIA Jetpack. The steps to set this up on your Jetson Nano can be found in section [5.1. Jetpack](51-jetpack).
+* Latest version of NVIDIA Jetpack. The steps to set this up on your Jetson Nano can be found in section 5.1. [Jetpack](51-jetpack).
 
 # 5. Setup
 
