@@ -15,13 +15,13 @@ An identifier of bolt and nut (fastener) types aswell as sizes. NVIDIA AI Specia
 
 # 1. Motivation
 
-Home and Commercial projects often come to an end with surplus fasteners (Nuts, Bolts, Screws, etc..) in inventory. More often than not, particularly in a home enviroment, surplus fasteners are stored together in what becomes a large accumulation of assorted fasteners. It can be difficult to make use of these fasteners as they accumulate and become disorganised. The aim of this project is to provide the framework of a solution which can be coupled with mechanical actuation to automate the process of sorting fasteners by type and size.<hr>
+Home and Commercial projects often come to an end with surplus fasteners (Nuts, Bolts, Screws, etc..) in inventory. More often than not, particularly in a home enviroment, surplus fasteners are stored together in what becomes a large accumulation of assorted fasteners. It can be difficult to make use of these fasteners as they accumulate and become disorganised. The aim of this project is to provide the framework of a solution which can be coupled with mechanical actuation to automate the process of sorting fasteners by type and size.
 
 # 2. Solution Summary
 
 The chosen solution to this problem was to train a model to recognise fastener types using transfer learning based on the ResNet-18 CNN (Convolutional Neural Network). The size of objects was then found using Aruco Markers to determine the pixel to mm ratio for the image and relating this ratio to the amount of pixels occupied by each object. <br> <br>
 
-It is important to note that the camera should be mounted vertically above the area where samples are analysed to avoid the error of parallax and the camera should be kept at a fixed distance from the analyzation area to provide consistent results.<hr>
+It is important to note that the camera should be mounted vertically above the area where samples are analysed to avoid the error of parallax and the camera should be kept at a fixed distance from the analyzation area to provide consistent results.
 
 # 3. Aruco Markers
 
@@ -45,15 +45,21 @@ The Jetson Nano can also be powered by a 5V power supply with a Barrel Jack conn
 
 # 5. Setup
 
-
+The general setup of the Jetson Nano developer kit is covered [here](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 
 ## 5.1. Jetpack
 
-
+The latest version of Jetpack can be downloaded by following these [steps](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)
 
 ## 5.2. Camera
 
+Depending on the type of camera you are using you will need to comment out diffrent sections of the code.<br> <br>
 
+If you are using a Webcam comment out the folowing line:<br>
+` edit <br> <br>
+
+If you are using a CSI camera comment out the following line:<br>
+` edit
 
 ## 5.3. Required Packages
 
