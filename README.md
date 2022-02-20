@@ -27,7 +27,9 @@ It is important to note that the camera should be mounted vertically above the a
 
 Aruco Markers are special symbols which are usually used for pose estimation and camera calibration. They are robust and efficient as the camera can locate and analyze them with relative ease. <br> <br>
 
-More information regarding Aruco Markers and their various applications can be found [here](https://docs.opencv.org/4.x/d9/d6d/tutorial_table_of_content_aruco.html)
+More information regarding Aruco Markers and their various applications can be found [here](https://docs.opencv.org/4.x/d9/d6d/tutorial_table_of_content_aruco.html)<br> <br>
+
+To see how Aruco Markers can be utilised to estimate the size of objects please see this [tutorial}(https://www.hackster.io/Hardi2409/object-size-measurement-on-nvidia-jeston-nano-8549e8).
 
 # 4. Project Requirements
 
