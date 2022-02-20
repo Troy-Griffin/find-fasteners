@@ -33,8 +33,7 @@ More information regarding Aruco Markers and their various applications can be f
 
 The Hardware and Software requirements to complete this project can be found below: <br> <br>
 
-*one
-*two
+* one * two * three
 
 # 5. Setup
 
