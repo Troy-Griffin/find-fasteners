@@ -53,7 +53,7 @@ The latest version of Jetpack can be downloaded by following these [steps](https
 
 ## 5.2. Camera
 
-Depending on the type of camera you are using you will need to comment out diffrent sections of the code.<br> <br>
+Depending on the type of camera you are using you will need to comment out different sections of the script.<br> <br>
 
 If you are using a Webcam comment out the folowing line:<br>
 `edit` <br> <br>
@@ -63,7 +63,11 @@ If you are using a CSI camera comment out the following line:<br>
 
 ## 5.3. Required Packages
 
+There are a few packages which are required to implement the project. You will first need to install pip3 using the following command in the Linux terminal:<br>
+`sudo apt-get install python3-pip` <br> <br>
 
+The required packages can then be installed with the following command in the Linux terminal:<br>
+`pip3 install -r packages.txt`
 
 # 6. Modifications
 
@@ -71,4 +75,5 @@ If you are using a CSI camera comment out the following line:<br>
 
 # 7. Run the Script
 
-
+To run the script use the following command in the Linux terminal: <br>
+`python3 findFasteners.py`
