@@ -19,7 +19,7 @@ An identifier of bolt and nut (fastener) types aswell as sizes. NVIDIA AI Specia
 
 # 3. Aruco Markers
 
-# 4. Project Requiremnets
+# 4. Project Requirements
 
 # 5. Setup
 
