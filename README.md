@@ -9,7 +9,7 @@ An identifier of bolt and nut (fastener) types aswell as sizes. NVIDIA AI Specia
   5.1. [Jetpack](#51-jetpack)<br>
   5.2. [Camera](#52-camera)<br>
   5.3. [Required Packages](#53-required-packages)<br>
-6. [Modifications](#6-modifications)
+6. [Model Training](#6-model-training)
 7. [Run the Script](#7-run-the-script)
 <hr>
 
@@ -69,9 +69,9 @@ There are a few packages which are required to implement the project. You will f
 The required packages can then be installed with the following command in the Linux terminal:<br>
 `pip3 install -r packages.txt`
 
-# 6. Modifications
+# 6. Model Training
 
-
+The model was trained using transfer learning based off of the ResNet-18 CNN (Convolutional Neural Network). The data for the model was captured using the handy tool from [tutorial](https://www.youtube.com/watch?v=2XMkPW_sIGg&t=1s) created by [dusty-nv](https://github.com/dusty-nv) at NVIDIA.
 
 # 7. Run the Script
 
