@@ -5,10 +5,10 @@ An identifier of bolt and nut (fastener) types aswell as sizes. NVIDIA AI Specia
 2. [Solution Summary](#2-solution-summary)
 3. [Aruco Markers](#3-aruco-markers)
 4. [Project Requirements](#4-project-requirements)
-5. [Setup](#5-setup)
-  5.1. [Jetpack](#51-jetpack)
-  5.2. [Camera](#52-camera)
-  5.3. [Required Packages](#53-required-packages)
+5. [Setup](#5-setup)<br>
+  5.1. [Jetpack](#51-jetpack)<br>
+  5.2. [Camera](#52-camera)<br>
+  5.3. [Required Packages](#53-required-packages)<br>
 6. [Modifications](#6-modifications)
 7. [Run the Script](#7-run-the-script)
 <hr>
