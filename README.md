@@ -1,16 +1,16 @@
 # find-fasteners
 An identifier of bolt and nut (fastener) types aswell as sizes. NVIDIA AI Specialist Certification Project. Nvidia Jetson Nano.
 ## Contents
-1. [Motivation](#Motivation)
-2. [Solution Summary](#solution summary)
-3. [Aruco Markers](#aruco markers)
-4. [Project Requirements](#project requirements)
+1. [Motivation](#motivation)
+2. [Solution Summary](#solutionsummary)
+3. [Aruco Markers](#arucomarkers)
+4. [Project Requirements](#project equirements)
 5. [Setup](#setup)
   4.1. [Jetpack](#jetpack)
   4.2. [Camera](#camera)
-  4.3. [Required Packages](#required packages)
+  4.3. [Required Packages](#requiredpackages)
 6. [Modifications](#modifications)
-7. [Run the Script](#run the final script)
+7. [Run the Script](#runthefinalscript)
 <hr>
 
 # 1. Motivation
