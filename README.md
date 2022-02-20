@@ -32,8 +32,16 @@ More information regarding Aruco Markers and their various applications can be f
 # 4. Project Requirements
 
 The Hardware and Software requirements to complete this project can be found below: <br> <br>
+## Hardware:<br>
+* [NVIDIA Jetson Nano Developer Kit, 2GB or 4GB](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)
+* [7inch HDMI LCD Display, IMX219-77 Camera, Micro SD Card 64GB or More](https://www.amazon.com/Developer-Accessories-Powerful-Development-XYGStudy/dp/B08629Y5JR/ref=sr_1_1_sspa?dchild=1&keywords=nvidia%2Bjetson%2Bnano%2Bdisplay&qid=1606178640&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzTkZDV1A2REZGVVhPJmVuY3J5cHRlZElkPUExMDM4NDgyMkdTS1dWSkNXWks0WSZlbmNyeXB0ZWRBZElkPUEwMzk0NjI2MzlVVUlZUzVFQkxVUCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1)
+* [AC8265 Wireless NIC Module](https://www.amazon.com/Wireless-AC8265-Wireless-Developer-Support-Bluetooth/dp/B07V9B5C6M/ref=pd_day0fbt_img_1/130-9141069-3820329?pd_rd_w=Icn1h&pf_rd_p=bcb8482a-3db5-4b0b-9f15-b86e24acdb00&pf_rd_r=A4ZYHQHC7F6DSBTK2D52&pd_rd_r=7c30cc4d-383b-432a-8a7f-1a4192f57d70&pd_rd_wg=uGeVN&pd_rd_i=B07V9B5C6M&psc=1)
+* [5V Power Supply](https://www.amazon.com/gp/product/B07TYQRXTK/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)<br>
+For a comprehensive list of other supported cameras click [here](https://developer.nvidia.com/embedded/jetson-partner-supported-cameras?t1_max-resolution=4K)<br>
+The Jetson Nano can also be powered by a 5V power supply with a Barrel Jack connnector.
 
-* one * two * three
+## Software:<br>
+
 
 # 5. Setup
 
