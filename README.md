@@ -14,7 +14,7 @@ An identifier of bolt and nut (fastener) types aswell as sizes. NVIDIA AI Specia
 <hr>
 
 # 1. Motivation
-
+Home and Commercial projects often come to an end with surplus fasteners (Nuts, Bolts, Screws, etc..) in inventory. More often than not, particularly in a home enviroment, surplus fasteners are stored together in what becomes a large accumulation of assorted fasteners. It can be difficult to make use of these fasteners as they accumulate and become disorganised. The aim of this project is to provide the framework of a solution which can be coupled with mechanical actuation to automate the process of sorting fasteners by type and size.
 # 2. Solution Summary
 
 # 3. Aruco Markers
@@ -30,5 +30,5 @@ An identifier of bolt and nut (fastener) types aswell as sizes. NVIDIA AI Specia
 ## 5.3. Required Packages
 
 # 6. Modifications
-Testing the code.
+
 # 7. Run the Script
