@@ -71,7 +71,7 @@ The required packages can then be installed with the following command in the Li
 
 # 6. Model Training
 
-The model was trained using transfer learning based off of the ResNet-18 CNN (Convolutional Neural Network). The data for the model was captured using the handy tool from [tutorial](https://www.youtube.com/watch?v=2XMkPW_sIGg&t=1s) created by [dusty-nv](https://github.com/dusty-nv) at NVIDIA.
+The model was trained using transfer learning based off of the ResNet-18 CNN (Convolutional Neural Network). The data for the model was captured using the handy tool from the [tutorial](https://www.youtube.com/watch?v=2XMkPW_sIGg&t=1s) created by [dusty-nv](https://github.com/dusty-nv) at NVIDIA.
 
 # 7. Run the Script
 
