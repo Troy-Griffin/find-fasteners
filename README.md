@@ -9,7 +9,7 @@ An identifier of bolt and nut (fastener) types aswell as sizes. NVIDIA AI Specia
   4.1. [Jetpack](#jetpack)
   4.2. [Camera](#camera)
   4.3. [Required Packages](#required packages)
-6. [Modifications](#Modifications)
+6. [Modifications](#modifications)
 7. [Run the Script](#run the final script)
 <hr>
 
