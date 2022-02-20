@@ -19,17 +19,22 @@ Home and Commercial projects often come to an end with surplus fasteners (Nuts, 
 
 # 2. Solution Summary
 
-The solution to this problem was to train a model to recognise fastener types using transfer learning based on the ResNet-18 CNN (Convolutional Neural Network). The size of objects was found using Aruco Markers to determine the pixel to mm ratio and then relate this to the amount of pixels occupied by each object. <br> <br>
+The chosen solution to this problem was to train a model to recognise fastener types using transfer learning based on the ResNet-18 CNN (Convolutional Neural Network). The size of objects was then found using Aruco Markers to determine the pixel to mm ratio for the image and relating this ratio to the amount of pixels occupied by each object. <br> <br>
+
 It is important to note that the camera should be mounted vertically above the area where samples are analysed to avoid the error of parallax and the camera should be kept at a fixed distance from the analyzation area to provide consistent results.
 
 # 3. Aruco Markers
 
 Aruco Markers are special symbols which are usually used for pose estimation and camera calibration. They are robust and efficient as the camera can locate and analyze them with relative ease. <br> <br>
-More can be read about Aruco Markers and their various applications [here](https://docs.opencv.org/4.x/d9/d6d/tutorial_table_of_content_aruco.html)
+
+More information regarding Aruco Markers and their various applications can be found [here](https://docs.opencv.org/4.x/d9/d6d/tutorial_table_of_content_aruco.html)
 
 # 4. Project Requirements
 
+The Hardware and Software requirements to complete this project can be found below: <br> <br>
 
+*one
+*two
 
 # 5. Setup
 
