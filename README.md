@@ -51,7 +51,7 @@ The general setup of the Jetson Nano developer kit is covered [here](https://dev
 
 ## 5.1. Jetpack
 
-The latest version of Jetpack can be downloaded by following these [steps](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)
+The latest version of Jetpack can be downloaded and setup on the Jetson Nano by following these [steps](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)
 
 ## 5.2. Camera
 
