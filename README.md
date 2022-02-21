@@ -57,7 +57,7 @@ The latest version of Jetpack can be downloaded by following these [steps](https
 
 Depending on the type of camera you are using you will need to comment out different sections of the script.<br> <br>
 
-If you are using a Webcam comment out the folowing line:<br>
+If you are using a Webcam comment out the following line:<br>
 `edit` <br> <br>
 
 If you are using a CSI camera comment out the following line:<br>
