@@ -19,7 +19,7 @@ Home and Commercial projects often come to an end with surplus fasteners (Nuts, 
 
 # 2. Solution Summary
 
-The chosen solution to this problem was to train a model to recognise fastener types using transfer learning based on the ResNet-18 CNN (Convolutional Neural Network). The size of objects was then found using Aruco Markers to determine the pixel to mm ratio for the image and relating this ratio to the amount of pixels occupied by each object. <br> <br>
+The chosen solution to this problem was to train a model to recognise fastener types using transfer learning based on the SSD-Mobilenet-v1 CNN (Convolutional Neural Network). The size of objects was then found using Aruco Markers to determine the pixel to mm ratio for the image and relating this ratio to the amount of pixels occupied by each object. <br> <br>
 
 It is important to note that the camera should be mounted vertically above the area where samples are analysed to avoid the error of parallax and the camera should be kept at a fixed distance from the analyzation area to provide consistent results.
 
@@ -73,7 +73,7 @@ The required packages can then be installed with the following command in the Li
 
 # 6. Model Training
 
-The model was trained using transfer learning based off of the ResNet-18 CNN (Convolutional Neural Network). The data for the model was captured using the handy tool from the [tutorial](https://www.youtube.com/watch?v=2XMkPW_sIGg&t=1s) created by [dusty-nv](https://github.com/dusty-nv) at NVIDIA.
+The model was trained using transfer learning based off of the SSD-Mobilenet-v1 CNN (Convolutional Neural Network). The data for the model was captured using the handy tool from the [tutorial](https://www.youtube.com/watch?v=2XMkPW_sIGg&t=1s) created by [dusty-nv](https://github.com/dusty-nv) at NVIDIA.
 
 # 7. Run the Script
 
