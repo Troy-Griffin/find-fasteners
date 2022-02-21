@@ -61,7 +61,7 @@ If you are using a Webcam comment out the following line:<br>
 `edit` <br> <br>
 
 If you are using a CSI camera comment out the following line:<br>
-`edit`
+`cam = cv2.VideoCapture(0)`
 
 ## 5.3. Required Packages
 
