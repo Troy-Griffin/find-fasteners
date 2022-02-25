@@ -19,7 +19,7 @@ Home and Commercial projects often come to an end with surplus fasteners (Nuts, 
 
 # 2. Solution Summary
 
-The chosen solution to this problem was to train a model to recognise fastener types using transfer learning based on the SSD-Mobilenet-v1 CNN (Convolutional Neural Network). The size of objects was then found using Aruco Markers to determine the pixel to mm ratio for the image and relating this ratio to the amount of pixels occupied by each object. <br> <br>
+The chosen solution to this problem was to train a model to recognise fastener types using transfer learning based on the SSD-Mobilenet-v1 CNN (Convolutional Neural Network). Transfer learning was also used to train a model based on the Resnet-18 CNN to further classify nuts into sub-categories. The size of objects was then found using Aruco Markers to determine the pixel to mm ratio for the image and relating this ratio to the amount of pixels occupied by each object. <br> <br>
 
 It is important to note that the camera should be mounted vertically above the area where samples are analysed to avoid the error of parallax and the camera should be kept at a fixed distance from the analyzation area to provide consistent results.
 
@@ -43,7 +43,9 @@ For a comprehensive list of other supported cameras click [here](https://develop
 The Jetson Nano can also be powered by a 5V power supply with a Barrel Jack connnector.
 
 ## Software:<br>
-* Latest version of NVIDIA Jetpack. The steps to set this up on your Jetson Nano can be found in section [5.1. Jetpack](#51-jetpack).
+* Latest version of NVIDIA Jetpack. The steps to set this up on your Jetson Nano can be found in section [5.1. Jetpack](#51-jetpack).<br> <br>
+* A version of OpenCV which includes the aruco module. To install the correct version of OpenCV on your Jetson Nano please follow this [tutorial](https://automaticaddison.com/how-to-install-opencv-4-5-on-nvidia-jetson-nano/).<br> <br>
+* You will need the [jetson-inference](https://github.com/dusty-nv/jetson-inference) repository natively installed or running from a docker container. Please follow the steps in the repository to complete either installation.
 
 # 5. Setup
 
@@ -65,15 +67,16 @@ If you are using a CSI camera comment out the following line:<br>
 
 ## 5.3. Required Packages
 
-There are a few packages which are required to implement the project. You will first need to install pip3 using the following command in the Linux terminal:<br>
-`sudo apt-get install python3-pip` <br> <br>
+The only package you will need to install is numpy. First you must make sure pip is installed using these commmands in your terminal: <br> 
+`sudo apt update` <br>
+`sudo apt install python3-pip` <br> <br>
 
-The required packages can then be installed with the following command in the Linux terminal:<br>
-`pip3 install -r packages.txt`
+Then you can install numpy with the following command: <br>
+` pip3 install numpy`
 
 # 6. Model Training
 
-The model was trained using transfer learning based off of the SSD-Mobilenet-v1 CNN (Convolutional Neural Network). The data for the model was captured using the handy tool from the [tutorial](https://www.youtube.com/watch?v=2XMkPW_sIGg&t=1s) created by [dusty-nv](https://github.com/dusty-nv) at NVIDIA.
+The object detection model was trained using transfer learning based off of the SSD-Mobilenet-v1 CNN (Convolutional Neural Network). The data for the model was captured using the handy tool from the [tutorial](https://www.youtube.com/watch?v=2XMkPW_sIGg&t=1s) created by [dusty-nv](https://github.com/dusty-nv) at NVIDIA. The image classification model was trained in a similar manner using the steps from this [tutorial](https://www.youtube.com/watch?v=sN6aT9TpltU&t=1942s).
 
 # 7. Run the Script
 
