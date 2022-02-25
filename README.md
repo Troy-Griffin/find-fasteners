@@ -25,7 +25,8 @@ It is important to note that the camera should be mounted vertically above the a
 
 # 3. Aruco Markers
 
-Aruco Markers are special symbols which are usually used for pose estimation and camera calibration. They are robust and efficient as the camera can locate and analyze them with relative ease. <br> <br>
+Aruco Markers are special symbols which are usually used for pose estimation and camera calibration. They are robust and efficient as the camera can locate and analyze them with relative ease. <br>
+The Aruco Marker provided in this repository is a standard 5cm x 5cm marker. If you print it out to use as part of the project ensure it is as close to 5cm x 5cm as possible.<br> <br>
 
 More information regarding Aruco Markers and their various applications can be found [here](https://docs.opencv.org/4.x/d9/d6d/tutorial_table_of_content_aruco.html)<br> <br>
 
