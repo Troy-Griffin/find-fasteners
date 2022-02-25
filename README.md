@@ -10,7 +10,8 @@ An identifier of bolt and nut (fastener) types aswell as sizes. NVIDIA AI Specia
   5.2. [Camera](#52-camera)<br>
   5.3. [Required Packages](#53-required-packages)<br>
 6. [Model Training](#6-model-training)
-7. [Run the Script](#7-run-the-script)
+7. [Some more details on the code](#7-some-more-details-on-the-code)
+8. [Run the Script](#8-run-the-script)
 <hr>
 
 # 1. Motivation
@@ -58,7 +59,7 @@ The latest version of Jetpack can be downloaded and setup on the Jetson Nano by 
 
 ## 5.2. Camera
 
-Depending on the type of camera you are using you will need to comment out different sections of the script.<br> <br>
+Depending on the type of camera you are using you will need to comment out different sections of the findFasteners.py script.<br> <br>
 
 If you are using a Webcam comment out the following line:<br>
 `camSet = 'nvarguscamerasrc !  video/x-raw(memory:NVMM), width=3264, height=2464, format=NV12, framerate=21/1 ! nvvidconv flip-method='+str(flip)+' ! video/x-raw, width='+str(dispW)+', height='+str(dispH)+', format=BGRx ! videoconvert ! video/x-raw, format=BGR ! appsink' <br>
@@ -80,7 +81,13 @@ Then you can install numpy with the following command: <br>
 
 The object detection model was trained using transfer learning based off of the SSD-Mobilenet-v1 CNN (Convolutional Neural Network). The data for the model was captured using the handy tool from the [tutorial](https://www.youtube.com/watch?v=2XMkPW_sIGg&t=1s) created by [dusty-nv](https://github.com/dusty-nv) at NVIDIA. The image classification model was trained in a similar manner using the steps from this [tutorial](https://www.youtube.com/watch?v=sN6aT9TpltU&t=1942s).
 
-# 7. Run the Script
+# 7. Some more details on the code
 
-To run the script use the following command in the Linux terminal: <br>
+We can adjust the size of objects we are looking for by adjusting the minimum area rectangle which we want the objects to occupy. In order to adjust this value change the number in the following line in the findFasteners.py file: <br>
+`if area > 2500:`
+
+# 8. Run the Script
+
+To run the script use the following commands in the Linux terminal: <br>
+`cd ~/find-fasteners` <br>
 `python3 findFasteners.py`
