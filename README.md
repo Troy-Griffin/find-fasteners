@@ -64,7 +64,7 @@ The latest version of Jetpack can be downloaded and setup on the Jetson Nano by 
 
 Depending on the type of camera you are using you will need to comment out different sections of the findFasteners.py script.<br> <br>
 
-If you are using a Webcam comment out the following line:<br>
+If you are using a Webcam comment out the following lines:<br>
 `camSet = 'nvarguscamerasrc !  video/x-raw(memory:NVMM), width=3264, height=2464, format=NV12, framerate=21/1 ! nvvidconv flip-method='+str(flip)+' ! video/x-raw, width='+str(dispW)+', height='+str(dispH)+', format=BGRx ! videoconvert ! video/x-raw, format=BGR ! appsink' <br>
 cam = cv2.VideoCapture(camSet)` <br> <br>
 
