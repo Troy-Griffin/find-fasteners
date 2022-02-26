@@ -51,7 +51,10 @@ The Jetson Nano can also be powered by a 5V power supply with a Barrel Jack conn
 
 # 5. Setup
 
-The general setup of the Jetson Nano developer kit is covered [here](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
+The general setup of the Jetson Nano developer kit is covered [here](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit). <br>
+You will also need to clone this repository to your home directory with the following commands: <br>
+`cd ~` <br>
+`git clone `
 
 ## 5.1. Jetpack
 
